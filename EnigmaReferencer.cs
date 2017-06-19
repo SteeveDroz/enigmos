@@ -17,7 +17,7 @@ namespace Cpln.Enigmos
         /// <returns>L'énigme à afficher</returns>
         public static Enigma DebugEnigma()
         {
-            return new Enigma(new JeuDuSacEnigmaPanel(), "Jeu du sac");          
+            return new Enigma(new PileOuFaceEnigmaPanel(), "Pile ou face");          
         }
 
         /// <summary>
@@ -54,7 +54,6 @@ namespace Cpln.Enigmos
             enigmas.Add(new Enigma(new MorpionEnigmaPanel(), "Morpion"));
             enigmas.Add(new Enigma(new NbrCarresEnigmaPanel(), "Nombre de carrés"));
             enigmas.Add(new Enigma(new NfsEnigmaPanel(), "Need For Speed"));
-            enigmas.Add(new Enigma(new PileOuFaceEnigmaPanel(), "Pile ou face"));
             enigmas.Add(new Enigma(new NinePointsEnigmaPanel(), "9 Points"));
             enigmas.Add(new Enigma(new OiseauxEnigmaPanel(), "Le plus long mot"));
             enigmas.Add(new Enigma(new OpenDoorEnigmaPanel(), "Ouvrez la porte !"));
@@ -62,6 +61,7 @@ namespace Cpln.Enigmos
             enigmas.Add(new Enigma(new PenduEnigmaPanel(), "Le jeu du pendu"));
             enigmas.Add(new Enigma(new Pendu2EnigmaPanel(), "Pendu 2"));
             enigmas.Add(new Enigma(new PhoqueEnigmaPanel(), "Chop' les poissons"));
+            enigmas.Add(new Enigma(new PileOuFaceEnigmaPanel(), "Pile ou face"));
             enigmas.Add(new Enigma(new PlateformerEnigmaPanel(), "Plateformer"));
             enigmas.Add(new Enigma(new RebusEnigmaPanel(), "Rébus"));
             enigmas.Add(new Enigma(new RectangleEnigmaPanel(), "Trouve le rectangle"));
